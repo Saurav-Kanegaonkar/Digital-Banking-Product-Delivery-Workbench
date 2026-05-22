@@ -6,49 +6,144 @@
   <title>Digital Banking Product Delivery Workbench</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body style="--accent:#dc2626;--bg:#fff1f2">
-  <main class="shell">
-    <header class="hero">
+<body>
+  <main class="app-shell">
+    <header class="topbar">
       <div>
-        <p class="eyebrow">Ops Console / digital banking product delivery and UAT analytics</p>
-        <h1>Digital Banking Product Delivery Workbench</h1>
+        <p class="eyebrow">Digital banking product analyst artifact</p>
+        <h1>Product Delivery Workbench</h1>
+        <p class="lede">Release readiness, requirements traceability, UAT coverage, and defect remediation in one operating packet.</p>
       </div>
-      <aside>
-        <b>Purpose</b>
-        <span>Turn messy product requirement-level signals into a ranked operating artifact with recommendations a stakeholder can act on.</span>
-      </aside>
+      <div class="release-callout" id="releaseCallout" aria-live="polite"></div>
     </header>
-    <section class="metrics">
-      <article><span>Modeled rows</span><strong>6.0K+</strong><em>source-style</em></article>
-      <article><span>Ranked queue</span><strong>25</strong><em>product requirements</em></article>
-      <article><span>Action pool</span><strong>220</strong><em>candidates</em></article>
-      <article><span>Review time</span><strong>-6 hrs</strong><em>weekly</em></article>
+
+    <section class="metric-grid" id="metricGrid" aria-label="Release readiness metrics"></section>
+
+    <nav class="surface-tabs" aria-label="Workbench surfaces">
+      <button class="active" data-surface="readiness" type="button">Readiness</button>
+      <button data-surface="traceability" type="button">Traceability</button>
+      <button data-surface="triage" type="button">Triage packet</button>
+    </nav>
+
+    <section class="surface active" id="readinessSurface" aria-label="Release readiness cockpit">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 1</p>
+          <h2>Release Readiness Cockpit</h2>
+        </div>
+        <p>Ranks capabilities by readiness gap, UAT pass rate, high-severity defects, and modeled value at risk.</p>
+      </div>
+      <div class="split-layout">
+        <article class="panel">
+          <div class="panel-title">
+            <h3>Release queue</h3>
+            <span id="queueCount"></span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Capability</th>
+                  <th>Status</th>
+                  <th>Readiness</th>
+                  <th>UAT</th>
+                  <th>P1/P2</th>
+                  <th>Decision</th>
+                </tr>
+              </thead>
+              <tbody id="releaseQueue"></tbody>
+            </table>
+          </div>
+        </article>
+        <aside class="panel">
+          <div class="panel-title">
+            <h3>Top blocker</h3>
+          </div>
+          <div id="topBlocker" class="detail-stack"></div>
+        </aside>
+      </div>
     </section>
-    <section class="main-grid">
-      <article class="panel lead">
-        <p class="eyebrow">Launch blockers</p>
-        <h2>Priority queue</h2>
-        <table>
-          <thead><tr><th>product requirement</th><th>Signal</th><th>Risk</th><th>Next move</th></tr></thead>
-          <tbody>
-            <tr><td>Segment A</td><td>Feedback loop</td><td>High</td><td>Escalate with source check</td></tr>
-            <tr><td>Segment B</td><td>Execution queue</td><td>Medium</td><td>Test with clear owner</td></tr>
-            <tr><td>Segment C</td><td>Quality gap</td><td>Watch</td><td>Document metric definition</td></tr>
-          </tbody>
-        </table>
-      </article>
-      <article class="panel narrative">
-        <p class="eyebrow">What the analysis says</p>
-        <h2>Recommendations over screenshots</h2>
-        <p>The artifact is built around decisions, not dashboard decoration: each source table feeds a ranked queue, and each queue item resolves into a recommendation.</p>
-        <p>The strongest opportunities appear where performance upside, measurement quality, and operating readiness overlap.</p>
-      </article>
+
+    <section class="surface" id="traceabilitySurface" aria-label="Requirements to UAT traceability">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 2</p>
+          <h2>Requirements To UAT Traceability</h2>
+        </div>
+        <p>Shows how user stories, acceptance criteria, UAT cases, defects, and business signoff connect.</p>
+      </div>
+      <div class="split-layout">
+        <article class="panel">
+          <div class="panel-title">
+            <h3>Coverage gaps</h3>
+            <span>story grain</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Story</th>
+                  <th>Capability</th>
+                  <th>AC</th>
+                  <th>UAT</th>
+                  <th>Gap</th>
+                  <th>Signoff</th>
+                </tr>
+              </thead>
+              <tbody id="traceabilityRows"></tbody>
+            </table>
+          </div>
+        </article>
+        <aside class="panel">
+          <div class="panel-title">
+            <h3>Story detail</h3>
+            <span>PRD style</span>
+          </div>
+          <div id="storyDetail" class="detail-stack"></div>
+        </aside>
+      </div>
     </section>
-    <section class="recommendations">
-      <article><b>01</b><h3>Validate</h3><p>Confirm source definitions before scaling the insight into recurring reporting.</p></article>
-      <article><b>02</b><h3>Prioritize</h3><p>Move the highest-value product requirement segment into the next operating review.</p></article>
-      <article><b>03</b><h3>Automate</h3><p>Convert the queue into a stakeholder-ready digest for repeated decisions.</p></article>
+
+    <section class="surface" id="triageSurface" aria-label="Defect remediation and agile ceremony packet">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 3</p>
+          <h2>Defect Remediation And Sprint Packet</h2>
+        </div>
+        <p>Turns unresolved issues into owner-ready decisions for UAT triage, backlog refinement, sprint planning, and stakeholder readout.</p>
+      </div>
+      <div class="split-layout">
+        <article class="panel">
+          <div class="panel-title">
+            <h3>Defect triage</h3>
+            <span>ranked by severity, age, and impact</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Defect</th>
+                  <th>Capability</th>
+                  <th>Severity</th>
+                  <th>Owner</th>
+                  <th>Days</th>
+                  <th>Impact</th>
+                </tr>
+              </thead>
+              <tbody id="defectRows"></tbody>
+            </table>
+          </div>
+        </article>
+        <aside class="panel">
+          <div class="panel-title">
+            <h3>Ceremony packet</h3>
+            <span>next actions</span>
+          </div>
+          <div id="ceremonyPacket" class="detail-stack"></div>
+        </aside>
+      </div>
     </section>
   </main>
+  <script src="src/app.js"></script>
 </body>
 </html>

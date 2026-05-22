@@ -1,0 +1,21 @@
+ceremony_id,epic_id,ceremony,decision_needed,facilitator,due_date,status
+CER001-1,EP001,Backlog refinement,Confirm acceptance criteria and data dependencies,Product analyst,2026-05-27,Scheduled
+CER001-2,EP001,UAT triage,Resolve high-severity defects and retest path,QA lead,2026-05-24,Needs escalation
+CER002-1,EP002,Backlog refinement,Confirm acceptance criteria and data dependencies,Product analyst,2026-05-23,Scheduled
+CER002-2,EP002,UAT triage,Resolve high-severity defects and retest path,QA lead,2026-05-25,Needs escalation
+CER003-1,EP003,Backlog refinement,Confirm acceptance criteria and data dependencies,Product analyst,2026-05-25,Scheduled
+CER003-2,EP003,UAT triage,Resolve high-severity defects and retest path,QA lead,2026-05-26,Needs escalation
+CER004-1,EP004,Backlog refinement,Confirm acceptance criteria and data dependencies,Product analyst,2026-05-25,Scheduled
+CER004-2,EP004,UAT triage,Resolve high-severity defects and retest path,QA lead,2026-05-25,Needs escalation
+CER005-1,EP005,Backlog refinement,Confirm acceptance criteria and data dependencies,Product analyst,2026-05-27,Scheduled
+CER005-2,EP005,UAT triage,Resolve high-severity defects and retest path,QA lead,2026-05-23,Needs escalation
+CER006-1,EP006,Backlog refinement,Confirm acceptance criteria and data dependencies,Product analyst,2026-05-24,Complete
+CER006-2,EP006,UAT triage,Resolve high-severity defects and retest path,QA lead,2026-05-25,Scheduled
+CER007-1,EP007,Backlog refinement,Confirm acceptance criteria and data dependencies,Product analyst,2026-05-26,Scheduled
+CER007-2,EP007,UAT triage,Resolve high-severity defects and retest path,QA lead,2026-05-25,Scheduled
+CER008-1,EP008,Backlog refinement,Confirm acceptance criteria and data dependencies,Product analyst,2026-05-22,Scheduled
+CER008-2,EP008,UAT triage,Resolve high-severity defects and retest path,QA lead,2026-05-24,Scheduled
+CER009-1,EP009,Backlog refinement,Confirm acceptance criteria and data dependencies,Product analyst,2026-05-22,Scheduled
+CER009-2,EP009,UAT triage,Resolve high-severity defects and retest path,QA lead,2026-05-22,Needs escalation
+CER010-1,EP010,Backlog refinement,Confirm acceptance criteria and data dependencies,Product analyst,2026-05-28,Scheduled
+CER010-2,EP010,UAT triage,Resolve high-severity defects and retest path,QA lead,2026-05-24,Needs escalation

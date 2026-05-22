@@ -1,0 +1,31 @@
+story_id,epic_id,capability,module,acceptance_criteria_count,uat_test_cases,coverage_gap,uat_pass_rate,p1_defects,p2_defects,signoff_status,readiness_score
+US003-3,EP003,Internal and external transfers,Money movement,4,4,0,0.25,1,2,Not ready,21.3
+US001-1,EP001,Digital onboarding,Account opening,3,5,0,0.6,1,1,Not ready,42.3
+US009-3,EP009,Dispute intake,Claims,3,4,0,0.25,0,2,Not ready,42.2
+US010-1,EP010,Small-business entitlements,Business banking,4,4,0,0.5,0,2,Not ready,44.3
+US010-2,EP010,Small-business entitlements,Business banking,4,4,0,0.5,0,2,Not ready,44.9
+US004-3,EP004,Bill pay enrollment,Payments,5,6,0,0.5,0,2,Not ready,54.0
+US009-1,EP009,Dispute intake,Claims,5,5,0,0.8,0,2,Not ready,58.3
+US005-2,EP005,Debit card controls,Cards,5,7,0,0.857,0,2,Pending,66.3
+US002-3,EP002,Login and step-up security,Security,5,5,0,0.6,0,1,Not ready,59.2
+US004-2,EP004,Bill pay enrollment,Payments,4,5,0,0.6,0,1,Not ready,61.1
+US005-3,EP005,Debit card controls,Cards,5,7,0,0.571,0,1,Pending,62.8
+US002-1,EP002,Login and step-up security,Security,4,5,0,1.0,0,1,Pending,77.6
+US001-2,EP001,Digital onboarding,Account opening,3,3,0,0.333,0,0,Not ready,53.5
+US008-3,EP008,Profile and contact servicing,Profile,3,5,0,0.4,0,0,Pending,63.4
+US007-1,EP007,Statements and documents,Documents,4,5,0,0.6,0,0,Pending,68.0
+US001-3,EP001,Digital onboarding,Account opening,3,4,0,0.75,0,0,Pending,69.3
+US006-1,EP006,Account alerts,Notifications,4,5,0,0.6,0,0,Pending,70.0
+US009-2,EP009,Dispute intake,Claims,5,7,0,0.714,0,0,Pending,70.6
+US003-2,EP003,Internal and external transfers,Money movement,5,6,0,0.833,0,0,Pending,71.3
+US005-1,EP005,Debit card controls,Cards,3,4,0,0.75,0,0,Pending,71.3
+US003-1,EP003,Internal and external transfers,Money movement,3,3,0,1.0,0,0,Pending,72.1
+US010-3,EP010,Small-business entitlements,Business banking,4,4,0,1.0,0,0,Pending,74.6
+US004-1,EP004,Bill pay enrollment,Payments,4,5,0,0.8,0,0,Pending,74.7
+US007-3,EP007,Statements and documents,Documents,3,5,0,0.8,0,0,Pending,77.4
+US002-2,EP002,Login and step-up security,Security,3,4,0,1.0,0,0,Signed,79.1
+US008-1,EP008,Profile and contact servicing,Profile,4,4,0,1.0,0,0,Signed,81.3
+US007-2,EP007,Statements and documents,Documents,4,6,0,1.0,0,0,Signed,84.2
+US006-3,EP006,Account alerts,Notifications,5,6,0,1.0,0,0,Signed,86.0
+US006-2,EP006,Account alerts,Notifications,5,6,0,1.0,0,0,Signed,86.9
+US008-2,EP008,Profile and contact servicing,Profile,4,5,0,1.0,0,0,Signed,87.9

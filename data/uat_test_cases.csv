@@ -1,0 +1,149 @@
+test_case_id,story_id,scenario,channel,uat_status,business_owner,last_run
+TC001-1-1,US001-1,Audit Path validation for prefill verified identity data,Mobile,Blocked,Operations Lead,2026-05-09
+TC001-1-2,US001-1,Audit Path validation for prefill verified identity data,Both,Failed,Operations Lead,2026-05-06
+TC001-1-3,US001-1,Audit Path validation for prefill verified identity data,Both,Passed,Operations Lead,2026-05-16
+TC001-1-4,US001-1,Audit Path validation for prefill verified identity data,Online,Passed,Operations Lead,2026-05-09
+TC001-1-5,US001-1,Audit Path validation for prefill verified identity data,Online,Passed,Operations Lead,2026-05-18
+TC001-2-1,US001-2,Audit Path validation for save an unfinished application,Mobile,Blocked,Operations Lead,2026-05-18
+TC001-2-2,US001-2,Audit Path validation for save an unfinished application,Mobile,Passed,Operations Lead,2026-05-19
+TC001-2-3,US001-2,Audit Path validation for save an unfinished application,Mobile,Failed,Operations Lead,2026-05-12
+TC001-3-1,US001-3,Exception Path validation for show missing-document reasons,Online,Passed,Operations Lead,2026-05-20
+TC001-3-2,US001-3,Exception Path validation for show missing-document reasons,Online,Passed,Operations Lead,2026-05-08
+TC001-3-3,US001-3,Exception Path validation for show missing-document reasons,Mobile,Failed,Operations Lead,2026-05-17
+TC001-3-4,US001-3,Exception Path validation for show missing-document reasons,Online,Passed,Operations Lead,2026-05-17
+TC002-1-1,US002-1,Servicing Path validation for step up high-risk sessions,Online,Passed,Risk Partner,2026-05-06
+TC002-1-2,US002-1,Servicing Path validation for step up high-risk sessions,Both,Passed,Risk Partner,2026-05-10
+TC002-1-3,US002-1,Servicing Path validation for step up high-risk sessions,Mobile,Passed,Risk Partner,2026-05-14
+TC002-1-4,US002-1,Servicing Path validation for step up high-risk sessions,Both,Passed,Risk Partner,2026-05-10
+TC002-1-5,US002-1,Servicing Path validation for step up high-risk sessions,Both,Passed,Risk Partner,2026-05-15
+TC002-2-1,US002-2,Exception Path validation for recover access with verified contact data,Mobile,Passed,Risk Partner,2026-05-07
+TC002-2-2,US002-2,Exception Path validation for recover access with verified contact data,Mobile,Passed,Risk Partner,2026-05-18
+TC002-2-3,US002-2,Exception Path validation for recover access with verified contact data,Mobile,Passed,Risk Partner,2026-05-08
+TC002-2-4,US002-2,Exception Path validation for recover access with verified contact data,Both,Passed,Risk Partner,2026-05-08
+TC002-3-1,US002-3,Exception Path validation for explain failed authentication attempts,Both,Blocked,Risk Partner,2026-05-06
+TC002-3-2,US002-3,Exception Path validation for explain failed authentication attempts,Mobile,Failed,Risk Partner,2026-05-19
+TC002-3-3,US002-3,Exception Path validation for explain failed authentication attempts,Both,Passed,Risk Partner,2026-05-09
+TC002-3-4,US002-3,Exception Path validation for explain failed authentication attempts,Online,Passed,Risk Partner,2026-05-09
+TC002-3-5,US002-3,Exception Path validation for explain failed authentication attempts,Both,Passed,Risk Partner,2026-05-20
+TC003-1-1,US003-1,Audit Path validation for schedule recurring transfers,Mobile,Passed,Contact Center Lead,2026-05-08
+TC003-1-2,US003-1,Audit Path validation for schedule recurring transfers,Online,Passed,Contact Center Lead,2026-05-09
+TC003-1-3,US003-1,Audit Path validation for schedule recurring transfers,Mobile,Passed,Contact Center Lead,2026-05-08
+TC003-2-1,US003-2,Audit Path validation for surface transfer limits before submit,Mobile,Failed,Contact Center Lead,2026-05-06
+TC003-2-2,US003-2,Audit Path validation for surface transfer limits before submit,Both,Passed,Contact Center Lead,2026-05-06
+TC003-2-3,US003-2,Audit Path validation for surface transfer limits before submit,Mobile,Passed,Contact Center Lead,2026-05-06
+TC003-2-4,US003-2,Audit Path validation for surface transfer limits before submit,Both,Passed,Contact Center Lead,2026-05-20
+TC003-2-5,US003-2,Audit Path validation for surface transfer limits before submit,Mobile,Passed,Contact Center Lead,2026-05-06
+TC003-2-6,US003-2,Audit Path validation for surface transfer limits before submit,Mobile,Passed,Contact Center Lead,2026-05-19
+TC003-3-1,US003-3,Admin Path validation for send transfer confirmation alerts,Both,Passed,Contact Center Lead,2026-05-10
+TC003-3-2,US003-3,Admin Path validation for send transfer confirmation alerts,Online,Failed,Contact Center Lead,2026-05-20
+TC003-3-3,US003-3,Admin Path validation for send transfer confirmation alerts,Mobile,Blocked,Contact Center Lead,2026-05-11
+TC003-3-4,US003-3,Admin Path validation for send transfer confirmation alerts,Online,Failed,Contact Center Lead,2026-05-19
+TC004-1-1,US004-1,Exception Path validation for add a new payee with address validation,Mobile,Passed,Digital PO,2026-05-12
+TC004-1-2,US004-1,Exception Path validation for add a new payee with address validation,Online,Failed,Digital PO,2026-05-11
+TC004-1-3,US004-1,Exception Path validation for add a new payee with address validation,Mobile,Passed,Digital PO,2026-05-20
+TC004-1-4,US004-1,Exception Path validation for add a new payee with address validation,Both,Passed,Digital PO,2026-05-09
+TC004-1-5,US004-1,Exception Path validation for add a new payee with address validation,Online,Passed,Digital PO,2026-05-18
+TC004-2-1,US004-2,Exception Path validation for review pending bill pay payments,Mobile,Passed,Digital PO,2026-05-12
+TC004-2-2,US004-2,Exception Path validation for review pending bill pay payments,Online,Passed,Digital PO,2026-05-09
+TC004-2-3,US004-2,Exception Path validation for review pending bill pay payments,Online,Failed,Digital PO,2026-05-11
+TC004-2-4,US004-2,Exception Path validation for review pending bill pay payments,Mobile,Passed,Digital PO,2026-05-09
+TC004-2-5,US004-2,Exception Path validation for review pending bill pay payments,Mobile,Blocked,Digital PO,2026-05-12
+TC004-3-1,US004-3,Happy Path validation for edit payment delivery date,Both,Failed,Digital PO,2026-05-12
+TC004-3-2,US004-3,Happy Path validation for edit payment delivery date,Both,Blocked,Digital PO,2026-05-16
+TC004-3-3,US004-3,Happy Path validation for edit payment delivery date,Both,Passed,Digital PO,2026-05-17
+TC004-3-4,US004-3,Happy Path validation for edit payment delivery date,Online,Passed,Digital PO,2026-05-12
+TC004-3-5,US004-3,Happy Path validation for edit payment delivery date,Both,Blocked,Digital PO,2026-05-20
+TC004-3-6,US004-3,Happy Path validation for edit payment delivery date,Online,Passed,Digital PO,2026-05-16
+TC005-1-1,US005-1,Servicing Path validation for freeze and unfreeze a debit card,Mobile,Failed,Operations Lead,2026-05-09
+TC005-1-2,US005-1,Servicing Path validation for freeze and unfreeze a debit card,Both,Passed,Operations Lead,2026-05-19
+TC005-1-3,US005-1,Servicing Path validation for freeze and unfreeze a debit card,Online,Passed,Operations Lead,2026-05-12
+TC005-1-4,US005-1,Servicing Path validation for freeze and unfreeze a debit card,Both,Passed,Operations Lead,2026-05-09
+TC005-2-1,US005-2,Admin Path validation for set travel notice rules,Both,Passed,Operations Lead,2026-05-20
+TC005-2-2,US005-2,Admin Path validation for set travel notice rules,Both,Passed,Operations Lead,2026-05-13
+TC005-2-3,US005-2,Admin Path validation for set travel notice rules,Both,Passed,Operations Lead,2026-05-19
+TC005-2-4,US005-2,Admin Path validation for set travel notice rules,Online,Passed,Operations Lead,2026-05-18
+TC005-2-5,US005-2,Admin Path validation for set travel notice rules,Both,Failed,Operations Lead,2026-05-10
+TC005-2-6,US005-2,Admin Path validation for set travel notice rules,Both,Passed,Operations Lead,2026-05-13
+TC005-2-7,US005-2,Admin Path validation for set travel notice rules,Online,Passed,Operations Lead,2026-05-13
+TC005-3-1,US005-3,Happy Path validation for view merchant-level authorization declines,Online,Blocked,Operations Lead,2026-05-10
+TC005-3-2,US005-3,Happy Path validation for view merchant-level authorization declines,Online,Passed,Operations Lead,2026-05-14
+TC005-3-3,US005-3,Happy Path validation for view merchant-level authorization declines,Both,Passed,Operations Lead,2026-05-18
+TC005-3-4,US005-3,Happy Path validation for view merchant-level authorization declines,Mobile,Passed,Operations Lead,2026-05-13
+TC005-3-5,US005-3,Happy Path validation for view merchant-level authorization declines,Online,Failed,Operations Lead,2026-05-13
+TC005-3-6,US005-3,Happy Path validation for view merchant-level authorization declines,Online,Blocked,Operations Lead,2026-05-16
+TC005-3-7,US005-3,Happy Path validation for view merchant-level authorization declines,Online,Passed,Operations Lead,2026-05-17
+TC006-1-1,US006-1,Admin Path validation for configure low-balance alerts,Both,Failed,Risk Partner,2026-05-17
+TC006-1-2,US006-1,Admin Path validation for configure low-balance alerts,Mobile,Passed,Risk Partner,2026-05-10
+TC006-1-3,US006-1,Admin Path validation for configure low-balance alerts,Mobile,Failed,Risk Partner,2026-05-20
+TC006-1-4,US006-1,Admin Path validation for configure low-balance alerts,Both,Passed,Risk Partner,2026-05-20
+TC006-1-5,US006-1,Admin Path validation for configure low-balance alerts,Online,Passed,Risk Partner,2026-05-17
+TC006-2-1,US006-2,Exception Path validation for confirm alert delivery channel,Both,Passed,Risk Partner,2026-05-10
+TC006-2-2,US006-2,Exception Path validation for confirm alert delivery channel,Both,Passed,Risk Partner,2026-05-18
+TC006-2-3,US006-2,Exception Path validation for confirm alert delivery channel,Online,Passed,Risk Partner,2026-05-19
+TC006-2-4,US006-2,Exception Path validation for confirm alert delivery channel,Online,Passed,Risk Partner,2026-05-11
+TC006-2-5,US006-2,Exception Path validation for confirm alert delivery channel,Mobile,Passed,Risk Partner,2026-05-10
+TC006-2-6,US006-2,Exception Path validation for confirm alert delivery channel,Mobile,Passed,Risk Partner,2026-05-18
+TC006-3-1,US006-3,Servicing Path validation for pause duplicate notifications,Both,Passed,Risk Partner,2026-05-17
+TC006-3-2,US006-3,Servicing Path validation for pause duplicate notifications,Both,Passed,Risk Partner,2026-05-06
+TC006-3-3,US006-3,Servicing Path validation for pause duplicate notifications,Mobile,Passed,Risk Partner,2026-05-07
+TC006-3-4,US006-3,Servicing Path validation for pause duplicate notifications,Online,Passed,Risk Partner,2026-05-13
+TC006-3-5,US006-3,Servicing Path validation for pause duplicate notifications,Mobile,Passed,Risk Partner,2026-05-17
+TC006-3-6,US006-3,Servicing Path validation for pause duplicate notifications,Both,Passed,Risk Partner,2026-05-13
+TC007-1-1,US007-1,Servicing Path validation for download prior statements,Both,Failed,Contact Center Lead,2026-05-09
+TC007-1-2,US007-1,Servicing Path validation for download prior statements,Both,Passed,Contact Center Lead,2026-05-14
+TC007-1-3,US007-1,Servicing Path validation for download prior statements,Both,Passed,Contact Center Lead,2026-05-08
+TC007-1-4,US007-1,Servicing Path validation for download prior statements,Both,Failed,Contact Center Lead,2026-05-13
+TC007-1-5,US007-1,Servicing Path validation for download prior statements,Both,Passed,Contact Center Lead,2026-05-18
+TC007-2-1,US007-2,Audit Path validation for enroll in paperless delivery,Online,Passed,Contact Center Lead,2026-05-08
+TC007-2-2,US007-2,Audit Path validation for enroll in paperless delivery,Online,Passed,Contact Center Lead,2026-05-19
+TC007-2-3,US007-2,Audit Path validation for enroll in paperless delivery,Mobile,Passed,Contact Center Lead,2026-05-12
+TC007-2-4,US007-2,Audit Path validation for enroll in paperless delivery,Both,Passed,Contact Center Lead,2026-05-16
+TC007-2-5,US007-2,Audit Path validation for enroll in paperless delivery,Mobile,Passed,Contact Center Lead,2026-05-08
+TC007-2-6,US007-2,Audit Path validation for enroll in paperless delivery,Online,Passed,Contact Center Lead,2026-05-07
+TC007-3-1,US007-3,Admin Path validation for search tax documents by year,Both,Passed,Contact Center Lead,2026-05-12
+TC007-3-2,US007-3,Admin Path validation for search tax documents by year,Both,Passed,Contact Center Lead,2026-05-06
+TC007-3-3,US007-3,Admin Path validation for search tax documents by year,Both,Passed,Contact Center Lead,2026-05-07
+TC007-3-4,US007-3,Admin Path validation for search tax documents by year,Mobile,Passed,Contact Center Lead,2026-05-16
+TC007-3-5,US007-3,Admin Path validation for search tax documents by year,Both,Failed,Contact Center Lead,2026-05-07
+TC008-1-1,US008-1,Servicing Path validation for update preferred phone number,Online,Passed,Digital PO,2026-05-17
+TC008-1-2,US008-1,Servicing Path validation for update preferred phone number,Online,Passed,Digital PO,2026-05-14
+TC008-1-3,US008-1,Servicing Path validation for update preferred phone number,Online,Passed,Digital PO,2026-05-07
+TC008-1-4,US008-1,Servicing Path validation for update preferred phone number,Online,Passed,Digital PO,2026-05-17
+TC008-2-1,US008-2,Audit Path validation for confirm mailing address changes,Mobile,Passed,Digital PO,2026-05-13
+TC008-2-2,US008-2,Audit Path validation for confirm mailing address changes,Online,Passed,Digital PO,2026-05-20
+TC008-2-3,US008-2,Audit Path validation for confirm mailing address changes,Both,Passed,Digital PO,2026-05-12
+TC008-2-4,US008-2,Audit Path validation for confirm mailing address changes,Online,Passed,Digital PO,2026-05-07
+TC008-2-5,US008-2,Audit Path validation for confirm mailing address changes,Online,Passed,Digital PO,2026-05-11
+TC008-3-1,US008-3,Audit Path validation for route sensitive updates to review,Online,Failed,Digital PO,2026-05-11
+TC008-3-2,US008-3,Audit Path validation for route sensitive updates to review,Online,Failed,Digital PO,2026-05-19
+TC008-3-3,US008-3,Audit Path validation for route sensitive updates to review,Mobile,Passed,Digital PO,2026-05-16
+TC008-3-4,US008-3,Audit Path validation for route sensitive updates to review,Online,Passed,Digital PO,2026-05-12
+TC008-3-5,US008-3,Audit Path validation for route sensitive updates to review,Both,Blocked,Digital PO,2026-05-11
+TC009-1-1,US009-1,Audit Path validation for submit a debit card dispute,Online,Failed,Operations Lead,2026-05-11
+TC009-1-2,US009-1,Audit Path validation for submit a debit card dispute,Both,Passed,Operations Lead,2026-05-10
+TC009-1-3,US009-1,Audit Path validation for submit a debit card dispute,Online,Passed,Operations Lead,2026-05-17
+TC009-1-4,US009-1,Audit Path validation for submit a debit card dispute,Both,Passed,Operations Lead,2026-05-15
+TC009-1-5,US009-1,Audit Path validation for submit a debit card dispute,Online,Passed,Operations Lead,2026-05-19
+TC009-2-1,US009-2,Servicing Path validation for attach dispute documentation,Online,Blocked,Operations Lead,2026-05-06
+TC009-2-2,US009-2,Servicing Path validation for attach dispute documentation,Online,Passed,Operations Lead,2026-05-19
+TC009-2-3,US009-2,Servicing Path validation for attach dispute documentation,Mobile,Passed,Operations Lead,2026-05-07
+TC009-2-4,US009-2,Servicing Path validation for attach dispute documentation,Online,Passed,Operations Lead,2026-05-11
+TC009-2-5,US009-2,Servicing Path validation for attach dispute documentation,Online,Passed,Operations Lead,2026-05-16
+TC009-2-6,US009-2,Servicing Path validation for attach dispute documentation,Online,Blocked,Operations Lead,2026-05-19
+TC009-2-7,US009-2,Servicing Path validation for attach dispute documentation,Both,Passed,Operations Lead,2026-05-12
+TC009-3-1,US009-3,Exception Path validation for track provisional credit status,Mobile,Failed,Operations Lead,2026-05-15
+TC009-3-2,US009-3,Exception Path validation for track provisional credit status,Both,Passed,Operations Lead,2026-05-16
+TC009-3-3,US009-3,Exception Path validation for track provisional credit status,Both,Failed,Operations Lead,2026-05-08
+TC009-3-4,US009-3,Exception Path validation for track provisional credit status,Both,Failed,Operations Lead,2026-05-10
+TC010-1-1,US010-1,Exception Path validation for assign payment approval roles,Online,Failed,Risk Partner,2026-05-06
+TC010-1-2,US010-1,Exception Path validation for assign payment approval roles,Both,Passed,Risk Partner,2026-05-08
+TC010-1-3,US010-1,Exception Path validation for assign payment approval roles,Online,Blocked,Risk Partner,2026-05-11
+TC010-1-4,US010-1,Exception Path validation for assign payment approval roles,Mobile,Passed,Risk Partner,2026-05-09
+TC010-2-1,US010-2,Servicing Path validation for set dual-control thresholds,Online,Passed,Risk Partner,2026-05-20
+TC010-2-2,US010-2,Servicing Path validation for set dual-control thresholds,Both,Passed,Risk Partner,2026-05-12
+TC010-2-3,US010-2,Servicing Path validation for set dual-control thresholds,Mobile,Failed,Risk Partner,2026-05-06
+TC010-2-4,US010-2,Servicing Path validation for set dual-control thresholds,Online,Failed,Risk Partner,2026-05-07
+TC010-3-1,US010-3,Exception Path validation for audit user permission changes,Mobile,Passed,Risk Partner,2026-05-08
+TC010-3-2,US010-3,Exception Path validation for audit user permission changes,Mobile,Passed,Risk Partner,2026-05-07
+TC010-3-3,US010-3,Exception Path validation for audit user permission changes,Both,Passed,Risk Partner,2026-05-09
+TC010-3-4,US010-3,Exception Path validation for audit user permission changes,Mobile,Passed,Risk Partner,2026-05-11

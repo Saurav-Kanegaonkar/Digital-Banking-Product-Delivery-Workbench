@@ -1,0 +1,11 @@
+epic_id,capability,module,release_status,readiness_score,uat_pass_rate,p1_defects,p2_defects,value_at_risk,priority_score,next_decision
+EP003,Internal and external transfers,Money movement,Blocked,54.9,0.692,1,2,2584000,110.7,Hold release and run triage
+EP010,Small-business entitlements,Business banking,Blocked,54.6,0.667,0,4,2650800,103.0,Hold release and run triage
+EP009,Dispute intake,Claims,Blocked,57.0,0.625,0,4,2650500,102.6,Hold release and run triage
+EP001,Digital onboarding,Account opening,Blocked,55.0,0.583,1,1,2372066,100.5,Hold release and run triage
+EP004,Bill pay enrollment,Payments,Watch,63.3,0.625,0,3,2142000,84.1,Retest and confirm signoff
+EP005,Debit card controls,Cards,Watch,66.8,0.722,0,3,2369300,82.7,Retest and confirm signoff
+EP002,Login and step-up security,Security,Watch,72.0,0.857,0,2,2088533,61.3,Retest and confirm signoff
+EP007,Statements and documents,Documents,Watch,76.5,0.812,0,0,1459199,36.5,Retest and confirm signoff
+EP008,Profile and contact servicing,Profile,Watch,77.5,0.786,0,0,1433750,33.5,Retest and confirm signoff
+EP006,Account alerts,Notifications,Ready,81.0,0.882,0,0,1400933,27.9,Move to launch checklist

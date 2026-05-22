@@ -1,17 +1,38 @@
--- Priority queue foundation
+-- Release readiness queue.
 select
-  entity_id,
-  avg(risk_score) as avg_risk_score,
-  avg(quality_score) as avg_quality_score,
-  sum(value_pool) as value_pool
-from daily_metrics
-group by 1
-order by avg_risk_score desc;
+  epic_id,
+  capability,
+  module,
+  readiness_score,
+  uat_pass_rate,
+  p1_defects,
+  p2_defects,
+  value_at_risk
+from release_readiness
+where release_status in ('Blocked', 'Watch')
+order by p1_defects desc, p2_defects desc, readiness_score asc;
 
--- Action readiness
+-- Requirements to UAT traceability gaps.
 select
-  action_type,
-  avg(expected_lift_pct) as expected_lift,
-  avg(effort_hours) as effort_hours
-from recommended_actions
-group by 1;
+  story_id,
+  epic_id,
+  acceptance_criteria_count,
+  uat_test_cases,
+  coverage_gap,
+  signoff_status
+from requirements_traceability
+where coverage_gap > 0 or signoff_status <> 'Signed'
+order by coverage_gap desc, readiness_score asc;
+
+-- Defect remediation triage.
+select
+  defect_id,
+  story_id,
+  module,
+  severity,
+  owner,
+  days_open,
+  triage_score
+from defect_triage
+where severity in ('P1', 'P2')
+order by triage_score desc;

@@ -1,0 +1,38 @@
+{
+  "epic_count": 10,
+  "story_count": 30,
+  "uat_case_count": 148,
+  "defect_count": 49,
+  "blocked_epics": 4,
+  "watch_epics": 5,
+  "ready_epics": 1,
+  "avg_readiness": 65.9,
+  "avg_uat_pass_rate": 0.725,
+  "p1_defects": 2,
+  "p2_defects": 19,
+  "value_at_risk": 21151081,
+  "top_epic": {
+    "epic_id": "EP003",
+    "capability": "Internal and external transfers",
+    "module": "Money movement",
+    "release_status": "Blocked",
+    "readiness_score": 54.9,
+    "uat_pass_rate": 0.692,
+    "p1_defects": 1,
+    "p2_defects": 2,
+    "value_at_risk": 2584000,
+    "priority_score": 110.7,
+    "next_decision": "Hold release and run triage"
+  },
+  "defects_by_severity": {
+    "P2": 19,
+    "P1": 2,
+    "P3": 19,
+    "P4": 9
+  },
+  "statuses": {
+    "Blocked": 4,
+    "Watch": 5,
+    "Ready": 1
+  }
+}

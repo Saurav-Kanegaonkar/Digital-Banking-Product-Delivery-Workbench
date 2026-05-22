@@ -1,0 +1,50 @@
+defect_id,story_id,epic_id,module,severity,defect_type,workflow_impact,owner,status,days_open,impact_points
+DF001-1-1,US001-1,EP001,Account opening,P2,channel parity gap,UAT retest needed,QA,In remediation,4,396.0
+DF001-1-2,US001-1,EP001,Account opening,P1,data validation issue,documentation update,Product,Open,15,204.1
+DF001-2-1,US001-2,EP001,Account opening,P3,data validation issue,UAT retest needed,Product,Open,6,121.5
+DF001-2-2,US001-2,EP001,Account opening,P3,edge-case workflow break,customer friction,Vendor,Open,11,121.7
+DF001-3-1,US001-3,EP001,Account opening,P3,accessibility miss,documentation update,Risk,Open,2,367.2
+DF002-1-1,US002-1,EP002,Security,P2,integration timing issue,release blocker,Vendor,In remediation,16,677.8
+DF002-2-1,US002-2,EP002,Security,P3,audit trail gap,customer friction,Risk,In remediation,15,332.0
+DF002-3-1,US002-3,EP002,Security,P3,edge-case workflow break,UAT retest needed,Engineering,Open,14,291.3
+DF002-3-2,US002-3,EP002,Security,P2,acceptance criteria gap,release blocker,Engineering,Retest scheduled,11,372.3
+DF003-2-1,US003-2,EP003,Money movement,P3,regression in mobile layout,UAT retest needed,Vendor,Deferred,2,200.8
+DF003-2-2,US003-2,EP003,Money movement,P3,audit trail gap,customer friction,QA,In remediation,13,363.9
+DF003-3-1,US003-3,EP003,Money movement,P2,integration timing issue,customer friction,Engineering,Open,9,563.9
+DF003-3-2,US003-3,EP003,Money movement,P1,integration timing issue,UAT retest needed,Product,In remediation,7,219.4
+DF003-3-3,US003-3,EP003,Money movement,P2,channel parity gap,documentation update,Risk,In remediation,2,543.3
+DF004-1-1,US004-1,EP004,Payments,P3,audit trail gap,UAT retest needed,QA,Retest scheduled,1,316.0
+DF004-2-1,US004-2,EP004,Payments,P3,integration timing issue,operations workaround,Vendor,In remediation,1,161.6
+DF004-2-2,US004-2,EP004,Payments,P2,accessibility miss,documentation update,Product,Open,4,656.1
+DF004-3-1,US004-3,EP004,Payments,P3,edge-case workflow break,customer friction,Risk,In remediation,18,203.5
+DF004-3-2,US004-3,EP004,Payments,P2,edge-case workflow break,UAT retest needed,Vendor,Deferred,10,360.4
+DF004-3-3,US004-3,EP004,Payments,P2,audit trail gap,operations workaround,Vendor,Deferred,11,297.8
+DF005-1-1,US005-1,EP005,Cards,P4,acceptance criteria gap,release blocker,Risk,Open,6,135.9
+DF005-2-1,US005-2,EP005,Cards,P2,data validation issue,documentation update,Engineering,Open,5,287.2
+DF005-2-2,US005-2,EP005,Cards,P2,audit trail gap,release blocker,Risk,Retest scheduled,11,519.5
+DF005-3-1,US005-3,EP005,Cards,P4,regression in mobile layout,documentation update,Engineering,Retest scheduled,1,321.9
+DF005-3-2,US005-3,EP005,Cards,P2,accessibility miss,operations workaround,QA,Open,9,491.4
+DF005-3-3,US005-3,EP005,Cards,P4,error message ambiguity,customer friction,Product,Retest scheduled,9,158.9
+DF005-3-4,US005-3,EP005,Cards,P4,API mapping issue,operations workaround,Engineering,Deferred,2,138.2
+DF006-1-1,US006-1,EP006,Notifications,P3,channel parity gap,documentation update,Engineering,Deferred,2,85.6
+DF006-1-2,US006-1,EP006,Notifications,P3,data validation issue,release blocker,Vendor,In remediation,1,190.4
+DF007-1-1,US007-1,EP007,Documents,P3,audit trail gap,customer friction,QA,In remediation,6,283.5
+DF007-1-2,US007-1,EP007,Documents,P3,integration timing issue,UAT retest needed,Product,Open,2,60.9
+DF007-3-1,US007-3,EP007,Documents,P3,accessibility miss,release blocker,Risk,Retest scheduled,16,184.8
+DF007-3-2,US007-3,EP007,Documents,P3,channel parity gap,customer friction,Risk,Open,8,65.1
+DF008-3-1,US008-3,EP008,Profile,P4,acceptance criteria gap,UAT retest needed,Product,Deferred,5,207.3
+DF008-3-2,US008-3,EP008,Profile,P3,error message ambiguity,release blocker,Engineering,Deferred,8,162.9
+DF008-3-3,US008-3,EP008,Profile,P3,acceptance criteria gap,documentation update,Risk,Open,8,132.8
+DF009-1-1,US009-1,EP009,Claims,P2,integration timing issue,operations workaround,Risk,In remediation,7,461.9
+DF009-1-2,US009-1,EP009,Claims,P2,edge-case workflow break,release blocker,Product,Retest scheduled,13,364.6
+DF009-2-1,US009-2,EP009,Claims,P4,acceptance criteria gap,documentation update,Engineering,Open,10,323.2
+DF009-2-2,US009-2,EP009,Claims,P4,API mapping issue,operations workaround,QA,In remediation,1,353.8
+DF009-3-1,US009-3,EP009,Claims,P4,integration timing issue,UAT retest needed,Engineering,Retest scheduled,12,331.5
+DF009-3-2,US009-3,EP009,Claims,P2,channel parity gap,operations workaround,Product,Open,13,698.1
+DF009-3-3,US009-3,EP009,Claims,P2,data validation issue,documentation update,Product,In remediation,1,363.7
+DF010-1-1,US010-1,EP010,Business banking,P3,channel parity gap,operations workaround,Product,In remediation,4,325.0
+DF010-1-2,US010-1,EP010,Business banking,P2,audit trail gap,operations workaround,Vendor,In remediation,3,604.1
+DF010-1-3,US010-1,EP010,Business banking,P2,error message ambiguity,customer friction,Product,Deferred,13,473.2
+DF010-2-1,US010-2,EP010,Business banking,P2,integration timing issue,operations workaround,Vendor,Open,14,423.3
+DF010-2-2,US010-2,EP010,Business banking,P4,channel parity gap,release blocker,Product,Open,15,357.7
+DF010-2-3,US010-2,EP010,Business banking,P2,data validation issue,documentation update,Product,Open,13,368.6

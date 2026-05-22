@@ -1,0 +1,11 @@
+okr,epic_id,metric,baseline,target,current,confidence
+Activation,EP001,Retest cycle time,70.7,82.9,71.0,Low
+Trust,EP002,Release predictability,66.6,83.6,63.6,Medium
+Transaction completion,EP003,Digital completion,54.1,89.9,70.8,Medium
+Self-service,EP004,Release predictability,67.2,92.2,78.2,Medium
+Self-service,EP005,Digital completion,75.1,93.1,59.7,High
+Trust,EP006,Retest cycle time,73.4,81.5,76.0,Low
+Self-service,EP007,Retest cycle time,57.2,80.0,62.6,Medium
+Servicing cost,EP008,Retest cycle time,80.1,81.3,79.9,Low
+Trust,EP009,Release predictability,74.9,91.0,80.0,Medium
+Commercial readiness,EP010,Call deflection,69.1,90.4,55.4,High

@@ -1,0 +1,50 @@
+defect_id,story_id,capability,module,severity,defect_type,workflow_impact,owner,status,days_open,triage_score
+DF009-3-2,US009-3,Dispute intake,Claims,P2,channel parity gap,operations workaround,Product,Open,13,793.6
+DF002-1-1,US002-1,Login and step-up security,Security,P2,integration timing issue,release blocker,Vendor,In remediation,16,770.4
+DF004-2-2,US004-2,Bill pay enrollment,Payments,P2,accessibility miss,documentation update,Product,Open,4,730.8
+DF010-1-2,US010-1,Small-business entitlements,Business banking,P2,audit trail gap,operations workaround,Vendor,In remediation,3,683.0
+DF003-3-1,US003-3,Internal and external transfers,Money movement,P2,integration timing issue,customer friction,Engineering,Open,9,656.6
+DF003-3-3,US003-3,Internal and external transfers,Money movement,P2,channel parity gap,documentation update,Risk,In remediation,2,628.0
+DF005-2-2,US005-2,Debit card controls,Cards,P2,audit trail gap,release blocker,Risk,Retest scheduled,11,604.9
+DF005-3-2,US005-3,Debit card controls,Cards,P2,accessibility miss,operations workaround,QA,Open,9,573.7
+DF010-1-3,US010-1,Small-business entitlements,Business banking,P2,error message ambiguity,customer friction,Product,Deferred,13,568.1
+DF009-1-1,US009-1,Dispute intake,Claims,P2,integration timing issue,operations workaround,Risk,In remediation,7,541.3
+DF010-2-1,US010-2,Small-business entitlements,Business banking,P2,integration timing issue,operations workaround,Vendor,Open,14,520.1
+DF001-1-1,US001-1,Digital onboarding,Account opening,P2,channel parity gap,UAT retest needed,QA,In remediation,4,475.4
+DF010-2-3,US010-2,Small-business entitlements,Business banking,P2,data validation issue,documentation update,Product,Open,13,463.4
+DF002-3-2,US002-3,Login and step-up security,Security,P2,acceptance criteria gap,release blocker,Engineering,Retest scheduled,11,459.5
+DF009-1-2,US009-1,Dispute intake,Claims,P2,edge-case workflow break,release blocker,Product,Retest scheduled,13,456.0
+DF004-3-2,US004-3,Bill pay enrollment,Payments,P2,edge-case workflow break,UAT retest needed,Vendor,Deferred,10,446.9
+DF009-3-3,US009-3,Dispute intake,Claims,P2,data validation issue,documentation update,Product,In remediation,1,443.1
+DF003-2-2,US003-2,Internal and external transfers,Money movement,P3,audit trail gap,customer friction,QA,In remediation,13,417.1
+DF001-3-1,US001-3,Digital onboarding,Account opening,P3,accessibility miss,documentation update,Risk,Open,2,404.9
+DF010-2-2,US010-2,Small-business entitlements,Business banking,P4,channel parity gap,release blocker,Product,Open,15,403.5
+DF002-2-1,US002-2,Login and step-up security,Security,P3,audit trail gap,customer friction,Risk,In remediation,15,387.2
+DF004-3-3,US004-3,Bill pay enrollment,Payments,P2,audit trail gap,operations workaround,Vendor,Deferred,11,386.3
+DF009-2-2,US009-2,Dispute intake,Claims,P4,API mapping issue,operations workaround,QA,In remediation,1,373.2
+DF009-3-1,US009-3,Dispute intake,Claims,P4,integration timing issue,UAT retest needed,Engineering,Retest scheduled,12,371.9
+DF010-1-1,US010-1,Small-business entitlements,Business banking,P3,channel parity gap,operations workaround,Product,In remediation,4,368.9
+DF005-2-1,US005-2,Debit card controls,Cards,P2,data validation issue,documentation update,Engineering,Open,5,360.6
+DF009-2-1,US009-2,Dispute intake,Claims,P4,acceptance criteria gap,documentation update,Engineering,Open,10,352.6
+DF004-1-1,US004-1,Bill pay enrollment,Payments,P3,audit trail gap,UAT retest needed,QA,Retest scheduled,1,352.3
+DF002-3-1,US002-3,Login and step-up security,Security,P3,edge-case workflow break,UAT retest needed,Engineering,Open,14,349.5
+DF005-3-1,US005-3,Debit card controls,Cards,P4,regression in mobile layout,documentation update,Engineering,Retest scheduled,1,343.2
+DF003-3-2,US003-3,Internal and external transfers,Money movement,P1,integration timing issue,UAT retest needed,Product,In remediation,7,343.1
+DF001-1-2,US001-1,Digital onboarding,Account opening,P1,data validation issue,documentation update,Product,Open,15,338.5
+DF007-1-1,US007-1,Statements and documents,Documents,P3,audit trail gap,customer friction,QA,In remediation,6,323.5
+DF004-3-1,US004-3,Bill pay enrollment,Payments,P3,edge-case workflow break,customer friction,Risk,In remediation,18,271.0
+DF007-3-1,US007-3,Statements and documents,Documents,P3,accessibility miss,release blocker,Risk,Retest scheduled,16,242.5
+DF003-2-1,US003-2,Internal and external transfers,Money movement,P3,regression in mobile layout,UAT retest needed,Vendor,Deferred,2,238.0
+DF008-3-1,US008-3,Profile and contact servicing,Profile,P4,acceptance criteria gap,UAT retest needed,Product,Deferred,5,228.5
+DF006-1-2,US006-1,Account alerts,Notifications,P3,data validation issue,release blocker,Vendor,In remediation,1,227.9
+DF008-3-2,US008-3,Profile and contact servicing,Profile,P3,error message ambiguity,release blocker,Engineering,Deferred,8,208.1
+DF004-2-1,US004-2,Bill pay enrollment,Payments,P3,integration timing issue,operations workaround,Vendor,In remediation,1,201.3
+DF005-3-3,US005-3,Debit card controls,Cards,P4,error message ambiguity,customer friction,Product,Retest scheduled,9,188.2
+DF008-3-3,US008-3,Profile and contact servicing,Profile,P3,acceptance criteria gap,documentation update,Risk,Open,8,178.0
+DF001-2-2,US001-2,Digital onboarding,Account opening,P3,edge-case workflow break,customer friction,Vendor,Open,11,175.3
+DF001-2-1,US001-2,Digital onboarding,Account opening,P3,data validation issue,UAT retest needed,Product,Open,6,165.1
+DF005-3-4,US005-3,Debit card controls,Cards,P4,API mapping issue,operations workaround,Engineering,Deferred,2,159.5
+DF005-1-1,US005-1,Debit card controls,Cards,P4,acceptance criteria gap,release blocker,Risk,Open,6,157.1
+DF006-1-1,US006-1,Account alerts,Notifications,P3,channel parity gap,documentation update,Engineering,Deferred,2,123.1
+DF007-3-2,US007-3,Statements and documents,Documents,P3,channel parity gap,customer friction,Risk,Open,8,106.8
+DF007-1-2,US007-1,Statements and documents,Documents,P3,integration timing issue,UAT retest needed,Product,Open,2,98.9

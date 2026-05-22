@@ -1,0 +1,11 @@
+epic_id,capability,module,release_train,squad,target_sprint,business_owner,compliance_touchpoint,okr,story_count,acceptance_criteria,uat_cases,uat_pass_rate,p1_defects,p2_defects,total_defects,signed_stories,readiness_score,release_status,value_at_risk
+EP001,Digital onboarding,Account opening,Servicing Release Train,Money Movement,Sprint 7,Operations Lead,Yes,Activation,3,9,12,0.583,1,1,5,0,55.0,Blocked,2372066
+EP002,Login and step-up security,Security,Payments Release Train,Servicing Enablement,Sprint 8,Risk Partner,Yes,Trust,3,12,14,0.857,0,2,4,1,72.0,Watch,2088533
+EP003,Internal and external transfers,Money movement,Mobile Release Train,Digital Trust,Sprint 8,Contact Center Lead,Yes,Transaction completion,3,12,13,0.692,1,2,5,0,54.9,Blocked,2584000
+EP004,Bill pay enrollment,Payments,Servicing Release Train,Journey Core,Sprint 9,Digital PO,No,Self-service,3,13,16,0.625,0,3,6,0,63.3,Watch,2142000
+EP005,Debit card controls,Cards,Payments Release Train,Money Movement,Sprint 9,Operations Lead,Yes,Self-service,3,13,18,0.722,0,3,7,0,66.8,Watch,2369300
+EP006,Account alerts,Notifications,Mobile Release Train,Servicing Enablement,Sprint 10,Risk Partner,No,Trust,3,14,17,0.882,0,0,2,2,81.0,Ready,1400933
+EP007,Statements and documents,Documents,Servicing Release Train,Digital Trust,Sprint 10,Contact Center Lead,No,Self-service,3,11,16,0.812,0,0,4,1,76.5,Watch,1459199
+EP008,Profile and contact servicing,Profile,Payments Release Train,Journey Core,Sprint 11,Digital PO,No,Servicing cost,3,11,14,0.786,0,0,3,2,77.5,Watch,1433750
+EP009,Dispute intake,Claims,Mobile Release Train,Money Movement,Sprint 11,Operations Lead,Yes,Trust,3,13,16,0.625,0,4,7,0,57.0,Blocked,2650500
+EP010,Small-business entitlements,Business banking,Servicing Release Train,Servicing Enablement,Sprint 12,Risk Partner,Yes,Commercial readiness,3,12,12,0.667,0,4,6,0,54.6,Blocked,2650800
